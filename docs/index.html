@@ -1,0 +1,134 @@
+<html lang="en">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+  <title>RedDeadWebPage</title> 
+  <meta content="Powered by Kobweb" name="description"> 
+  <link href="/rewestrp/favicon.ico" rel="icon"> 
+  <meta content="width=device-width, initial-scale=1" name="viewport"> 
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"> 
+ </head> 
+ <body style="background-color: gray;"> 
+  <div id="root">
+   <style>html, body { padding: 0px; margin: 0px; }* { box-sizing: border-box; }</style>
+   <style>.kobweb-box { display: grid; grid-template-columns: 1fr; grid-template-rows: 1fr; }.kobweb-box > * { grid-area: 1 / 1 / auto / auto; }.kobweb-box.kobweb-align-top-start { place-items: start; }.kobweb-box.kobweb-align-top-center { place-items: start center; }.kobweb-box.kobweb-align-top-end { place-items: start end; }.kobweb-box.kobweb-align-center-start { place-items: center start; }.kobweb-box.kobweb-align-center { place-items: center; }.kobweb-box.kobweb-align-center-end { place-items: center end; }.kobweb-box.kobweb-align-bottom-start { place-items: end start; }.kobweb-box.kobweb-align-bottom-center { place-items: end center; }.kobweb-box.kobweb-align-bottom-end { place-items: end; }.kobweb-box > .kobweb-align-top-start-self { place-self: start; }.kobweb-box > .kobweb-align-top-center-self { place-self: start center; }.kobweb-box > .kobweb-align-top-end-self { place-self: start end; }.kobweb-box > .kobweb-align-center-start-self { place-self: center start; }.kobweb-box > .kobweb-align-center-self { place-self: center; }.kobweb-box > .kobweb-align-center-end-self { place-self: center end; }.kobweb-box > .kobweb-align-bottom-start-self { place-self: end start; }.kobweb-box > .kobweb-align-bottom-center-self { place-self: end center; }.kobweb-box > .kobweb-align-bottom-end-self { place-self: end; }.kobweb-col { display: flex; flex-direction: column; }.kobweb-col.kobweb-arrange-top { justify-content: flex-start; }.kobweb-col.kobweb-arrange-center { justify-content: center; }.kobweb-col.kobweb-arrange-bottom { justify-content: flex-end; }.kobweb-col.kobweb-align-start { align-items: flex-start; }.kobweb-col.kobweb-align-center-horiz { align-items: center; }.kobweb-col.kobweb-align-end { align-items: flex-end; }.kobweb-col > .kobweb-align-start-self { align-self: flex-start; }.kobweb-col > .kobweb-align-center-horiz-self { align-self: center; }.kobweb-col > .kobweb-align-end-self { align-self: flex-end; }.kobweb-row { display: flex; flex-flow: row wrap; }.kobweb-row.kobweb-arrange-start { justify-content: flex-start; }.kobweb-row.kobweb-arrange-center { justify-content: center; }.kobweb-row.kobweb-arrange-end { justify-content: flex-end; }.kobweb-row.kobweb-align-top { align-items: flex-start; }.kobweb-row.kobweb-align-center-vert { align-items: center; }.kobweb-row.kobweb-align-bottom { align-items: flex-end; }.kobweb-row > .kobweb-align-top-self { align-self: flex-start; }.kobweb-row > .kobweb-align-center-vert-self { align-self: center; }.kobweb-row > .kobweb-align-bottom-self { align-self: flex-end; }.kobweb-spacer { flex-grow: 1; }</style>
+   <style>body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }.silk-button-light { background-color: rgb(204, 204, 204); clip-path: inset(0% round 4px); outline: 0px; user-select: none; }.silk-button-dark { background-color: rgb(51, 51, 51); clip-path: inset(0% round 4px); outline: 0px; user-select: none; }.silk-button-light:hover { background-color: rgb(163, 163, 163); cursor: pointer; }.silk-button-dark:hover { background-color: rgb(92, 92, 92); cursor: pointer; }.silk-button-light:focus { background-color: rgb(163, 163, 163); }.silk-button-dark:focus { background-color: rgb(92, 92, 92); }.silk-button-light:active { background-color: rgb(122, 122, 122); }.silk-button-dark:active { background-color: rgb(133, 133, 133); }.silk-button-light:focus:active { background-color: rgb(122, 122, 122); }.silk-button-dark:focus:active { background-color: rgb(133, 133, 133); }.silk-divider-light { border-top: 1px solid rgb(0, 0, 0); width: 90%; }.silk-divider-dark { border-top: 1px solid rgb(255, 255, 255); width: 90%; }.silk-link { text-decoration-line: none; }.silk-link-light:link { color: rgb(0, 0, 255); }.silk-link-dark:link { color: rgb(0, 255, 255); }.silk-link-light:visited { color: rgb(128, 0, 128); }.silk-link-dark:visited { color: rgb(238, 130, 238); }.silk-link:hover { text-decoration-line: underline; }.silk-simple-grid { display: grid; }.silk-surface-light { background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); transition-property: background-color; transition-duration: 200ms; }.silk-surface-dark { background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); transition-property: background-color; transition-duration: 200ms; }.silk-surface * { transition-property: inherit; transition-duration: inherit; }@media (max-width: 30rem) {  .silk-display-if-sm { display: none; }}@media (max-width: 48rem) {  .silk-display-if-md { display: none; }}@media (max-width: 62rem) {  .silk-display-if-lg { display: none; }}@media (max-width: 80rem) {  .silk-display-if-xl { display: none; }}@media (min-width: 30rem) {  .silk-display-until-sm { display: none; }}@media (min-width: 48rem) {  .silk-display-until-md { display: none; }}@media (min-width: 62rem) {  .silk-display-until-lg { display: none; }}@media (min-width: 80rem) {  .silk-display-until-xl { display: none; }}.silk-image.silk-image-fit { width: 100%; object-fit: scale-down; }.silk-link.silk-link-undecorated:hover { text-decoration-line: none; }.silk-link.silk-link-uncolored-light:link { color: rgb(0, 0, 0); }.silk-link.silk-link-uncolored-dark:link { color: rgb(255, 255, 255); }.silk-link.silk-link-uncolored-light:visited { color: rgb(0, 0, 0); }.silk-link.silk-link-uncolored-dark:visited { color: rgb(255, 255, 255); }.silk-simple-grid.silk-simple-grid-base-1 { grid-template-columns: repeat(1, 1fr); }.silk-simple-grid.silk-simple-grid-base-2 { grid-template-columns: repeat(2, 1fr); }.silk-simple-grid.silk-simple-grid-base-3 { grid-template-columns: repeat(3, 1fr); }.silk-simple-grid.silk-simple-grid-base-4 { grid-template-columns: repeat(4, 1fr); }@media (min-width: 30rem) {  .silk-simple-grid.silk-simple-grid-sm-1 { grid-template-columns: repeat(1, 1fr); }}@media (min-width: 30rem) {  .silk-simple-grid.silk-simple-grid-sm-2 { grid-template-columns: repeat(2, 1fr); }}@media (min-width: 30rem) {  .silk-simple-grid.silk-simple-grid-sm-3 { grid-template-columns: repeat(3, 1fr); }}@media (min-width: 30rem) {  .silk-simple-grid.silk-simple-grid-sm-4 { grid-template-columns: repeat(4, 1fr); }}@media (min-width: 48rem) {  .silk-simple-grid.silk-simple-grid-md-1 { grid-template-columns: repeat(1, 1fr); }}@media (min-width: 48rem) {  .silk-simple-grid.silk-simple-grid-md-2 { grid-template-columns: repeat(2, 1fr); }}@media (min-width: 48rem) {  .silk-simple-grid.silk-simple-grid-md-3 { grid-template-columns: repeat(3, 1fr); }}@media (min-width: 48rem) {  .silk-simple-grid.silk-simple-grid-md-4 { grid-template-columns: repeat(4, 1fr); }}@media (min-width: 62rem) {  .silk-simple-grid.silk-simple-grid-lg-1 { grid-template-columns: repeat(1, 1fr); }}@media (min-width: 62rem) {  .silk-simple-grid.silk-simple-grid-lg-2 { grid-template-columns: repeat(2, 1fr); }}@media (min-width: 62rem) {  .silk-simple-grid.silk-simple-grid-lg-3 { grid-template-columns: repeat(3, 1fr); }}@media (min-width: 62rem) {  .silk-simple-grid.silk-simple-grid-lg-4 { grid-template-columns: repeat(4, 1fr); }}@media (min-width: 80rem) {  .silk-simple-grid.silk-simple-grid-xl-1 { grid-template-columns: repeat(1, 1fr); }}@media (min-width: 80rem) {  .silk-simple-grid.silk-simple-grid-xl-2 { grid-template-columns: repeat(2, 1fr); }}@media (min-width: 80rem) {  .silk-simple-grid.silk-simple-grid-xl-3 { grid-template-columns: repeat(3, 1fr); }}@media (min-width: 80rem) {  .silk-simple-grid.silk-simple-grid-xl-4 { grid-template-columns: repeat(4, 1fr); }}</style>
+   <div class="silk-surface silk-surface-light kobweb-box kobweb-align-top-start" style="min-height: 100vh;">
+    <div class="kobweb-box kobweb-align-top-start" style="width: 100%; height: 100%;">
+     <img class="silk-image" style="width: 100%; height: 100%;" src="background2.jpg" alt="">
+     <div class="kobweb-col kobweb-arrange-top kobweb-align-start" style="width: 100%; height: 100%;">
+      <div class="kobweb-box kobweb-align-top-start" style="padding: 40px 151px 0px; width: 100%;">
+       <div class="kobweb-box kobweb-align-top-start" style="background-color: rgba(0, 0, 0, 0.8); border-radius: 20px; width: 100%;">
+        <div class="kobweb-row kobweb-arrange-center kobweb-align-center-vert" style="width: 100%;">
+         <img class="silk-image" style="width: 144px; height: 67px; margin: 0px 0px 0px 58px;" src="logo.svg" alt="">
+         <img class="silk-image" style="width: 24px; height: 72px; margin: 0px 0px 0px 42px;" src="line_right.svg" alt="">
+         <img class="silk-image" style="width: 20%; height: 168px; margin: 0px 0px 0px 20px;" src="header_text.svg" alt="">
+         <div class="silk-button-light kobweb-box kobweb-align-center" style="width: 10%; min-height: 142px; background-color: transparent;" tabindex="0">
+          <div class="kobweb-box kobweb-align-center">
+           <span style="font-weight: 400; font-size: 16px; color: white; text-align: center;">ОПИСАНИЕ СЕРВЕРА</span>
+          </div>
+         </div>
+         <div class="silk-button-light kobweb-box kobweb-align-center" style="width: 10%; min-height: 142px; background-color: transparent;" tabindex="0">
+          <div class="kobweb-box kobweb-align-center">
+           <span style="font-weight: 400; font-size: 16px; color: white; text-align: center;">КАК ИГРАТЬ</span>
+          </div>
+         </div>
+         <div class="silk-button-light kobweb-box kobweb-align-center" style="width: 10%; min-height: 142px; background-color: transparent;" tabindex="0">
+          <div class="kobweb-box kobweb-align-center">
+           <span style="font-weight: 400; font-size: 16px; color: white; text-align: center;">ПЕРСОНАЖ</span>
+          </div>
+         </div>
+         <div class="silk-button-light kobweb-box kobweb-align-center" style="width: 10%; min-height: 142px; background-color: transparent;" tabindex="0">
+          <div class="kobweb-box kobweb-align-center">
+           <span style="font-weight: 400; font-size: 16px; color: white; text-align: center;">ГАЙД ПО СЕРВЕРУ</span>
+          </div>
+         </div>
+         <div class="silk-button-light kobweb-box kobweb-align-center" style="align-content: end; min-height: 142px; min-width: 142px; background-color: transparent;" tabindex="0">
+          <div class="kobweb-box kobweb-align-center" style="width: 100%; height: 100%;">
+           <img class="silk-image" style="width: 40px; height: 40px;" src="icon.svg" alt="">
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="kobweb-box kobweb-align-center" style="width: 100%; margin: 54px 0px 0px;">
+       <div class="kobweb-col kobweb-arrange-top kobweb-align-center-horiz">
+        <div class="kobweb-row kobweb-arrange-start kobweb-align-top">
+         <img class="silk-image" style="width: 192px; height: 192px;" src="voucher_honor.svg" alt="">
+         <img class="silk-image" style="width: 449px; height: 209px; margin: 0px 0px 0px 36px;" src="logo.svg" alt="">
+         <img class="silk-image" style="width: 192px; height: 192px;" src="voucher_character.svg" alt="">
+        </div>
+        <img class="silk-image" style="width: 100%; padding: 0px 360px; margin: 54px 0px 0px;" src="main_text.svg" alt="">
+       </div>
+      </div>
+      <div class="kobweb-col kobweb-arrange-top kobweb-align-start" style="margin: 74px 0px 0px;">
+       <div class="kobweb-box kobweb-align-top-start" style="width: 100%; padding: 0px 331px 38px;" id="server_info">
+        <div class="kobweb-box kobweb-align-top-end" style="padding: 50px; background-color: rgba(0, 0, 0, 0.8); border-radius: 20px; width: 100%;">
+         <div class="kobweb-col kobweb-arrange-top kobweb-align-start" style="width: 100%; padding: 0px 212px 0px 0px;">
+          <span style="font-size: 40px; font-weight: 700; color: red;">REDWest Life RP</span><span style="font-size: 16px; font-weight: 700; color: white; white-space: pre-wrap;">- это roleplay сервер,на котором ты сможешь вершить судьбу персонажа самостоятельно, на сколько хватит твоей фантазии. Ограничением служит только тематика и временной период. (На сервере 1899 г.) На сервере имеются много видов заработка, как легального так и криминального. Получи свое собственное жилье, заведи домашнее животное, или устройся на работу в компанию.</span>
+         </div>
+         <div class="kobweb-box kobweb-align-center" style="height: 100%;">
+          <img class="silk-image" style="width: 192px; height: 192px;" src="item_one.svg" alt="">
+         </div>
+        </div>
+       </div>
+       <div class="kobweb-box kobweb-align-top-start" style="width: 100%; padding: 0px 331px 38px;" id="how_to_play">
+        <div class="kobweb-box kobweb-align-top-end" style="padding: 50px; background-color: rgba(0, 0, 0, 0.8); border-radius: 20px; width: 100%;">
+         <div class="kobweb-col kobweb-arrange-top kobweb-align-start" style="width: 100%; padding: 0px 180px 0px 0px;">
+          <span style="font-size: 40px; font-weight: 700; color: red;">КАК НАЧАТЬ ИГРАТЬ</span><span style="font-size: 16px; font-weight: 700; color: white; white-space: pre-wrap;">Если у вас уже установлен Red Ded Redemption 2: 1. Вам нужно скачать RedM 2. Запустить Steam и RockStar 3. После запуска RedM. Вы можете подключится к серверу набрав в поиске RedWest или выбрав из списка серверов RU, так же можно подключится на прямую через консоль нажимаем F8 в игре копируем вставляем в консоль connect cfx.re/join/ggev3o 4. Приятной игры! **НАСТОЯТЕЛЬНО РЕКОМЕНДУЕМ ОЗНАКОМИТСЯ С ПРАВИЛАМИ!</span>
+         </div>
+         <div class="kobweb-box kobweb-align-center" style="height: 100%;">
+          <img class="silk-image" style="width: 160px; height: 160px;" src="item_two.svg" alt="">
+         </div>
+        </div>
+       </div>
+       <div class="kobweb-box kobweb-align-top-start" style="width: 100%; padding: 0px 331px 38px;" id="user">
+        <div class="kobweb-box kobweb-align-top-end" style="padding: 50px; background-color: rgba(0, 0, 0, 0.8); border-radius: 20px; width: 100%;">
+         <div class="kobweb-col kobweb-arrange-top kobweb-align-start" style="width: 100%; padding: 0px 260px 0px 0px;">
+          <span style="font-size: 40px; font-weight: 700; color: red;">СОЗДАНИЕ ПЕРСОНАЖА</span><span style="font-size: 16px; font-weight: 700; color: white; white-space: pre-wrap;">ЕСЛИ ПРИ СОЗДАНИИ ПЕРСОНАЖА, ВЫ ЕГО ВИДИТЕ, - переключите пол на женский и обратно. Правила регистрации персонажа:** 1. Оставить заявку в разделе #📌запрос-роли никнейм вашего профиль ДС должны совпадать с игровым. 2. В настройках РедМ (шестерёнка в лаунчере) вам нужно ввести имя вашего персонажа.</span>
+         </div>
+         <div class="kobweb-box kobweb-align-center" style="height: 100%;">
+          <img class="silk-image" style="width: 240px; height: 136px;" src="item_three.svg" alt="">
+         </div>
+        </div>
+       </div>
+       <div class="kobweb-box kobweb-align-top-start" style="width: 100%; padding: 0px 331px 38px;" id="guide">
+        <div class="kobweb-box kobweb-align-top-end" style="padding: 50px; background-color: rgba(0, 0, 0, 0.8); border-radius: 20px; width: 100%;">
+         <div class="kobweb-col kobweb-arrange-top kobweb-align-start" style="width: 100%; padding: 0px 180px 0px 0px;">
+          <span style="font-size: 40px; font-weight: 700; color: red;">ГАЙД ПО СЕРВЕРУ</span><span style="font-size: 16px; font-weight: 700; color: white; white-space: pre-wrap;">Материал в формате PDF, для ознакомленияс возможностями сервера, вы можете скачать здесь, нажав на кнопку.</span>
+          <div class="kobweb-row kobweb-arrange-start kobweb-align-top">
+           <a style="text-decoration: none;" href="RED_WEST_FAQ.pdf">
+            <div class="kobweb-box kobweb-align-center" style="padding: 20px 0px 0px;">
+             <img class="silk-image" style="width: 239px; height: 67px;" src="button.svg" alt=""><span style="font-weight: 400; font-size: 32px; color: black; text-align: center;">Скачать</span>
+            </div></a>
+           <img class="silk-image" style="margin: 20px 0px 0px 10px; width: 70px; height: 70px;" src="animal_cardinal.svg" alt="">
+          </div>
+         </div>
+         <div class="kobweb-box kobweb-align-center" style="height: 100%;">
+          <img class="silk-image" style="width: 160px; height: 160px;" src="book.svg" alt="">
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="kobweb-row kobweb-arrange-center kobweb-align-top" style="width: 100%; padding: 100px 0px 0px;">
+       <a class="silk-link silk-link-light" style="height: 150px; width: 150px; padding: 20px; background-color: transparent;" href="https://vk.com/redwestrp">
+        <div class="kobweb-box kobweb-align-center" style="width: 100%; height: 100%;">
+         <img class="silk-image" style="width: 86px; height: 92px;" src="icon_vk.svg" alt="">
+        </div></a><a class="silk-link silk-link-light" style="height: 150px; width: 150px; padding: 20px; background-color: transparent;" href="https://discord.com/invite/7k3cUSHhpb">
+        <div class="kobweb-box kobweb-align-center" style="width: 100%; height: 100%;">
+         <img class="silk-image" style="width: 75px; height: 105px;" src="icon_discord.svg" alt="">
+        </div></a><a class="silk-link silk-link-light" style="height: 150px; width: 150px; padding: 20px; background-color: transparent;" href="https://trovo.live/s/RedWestRP
+">
+        <div class="kobweb-box kobweb-align-center" style="width: 100%; height: 100%;">
+         <img class="silk-image" style="width: 86px; height: 93px;" src="icon_trovo.svg" alt="">
+        </div></a><a class="silk-link silk-link-light" style="height: 150px; width: 150px; padding: 20px; background-color: transparent;" href="https://www.youtube.com/channel/UCywMi2HQ3x3T7qIAaGZL-Wg">
+        <div class="kobweb-box kobweb-align-center" style="width: 100%; height: 100%;">
+         <img class="silk-image" style="width: 67px; height: 95px;" src="icon_youtube.svg" alt="">
+        </div></a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div> 
+  <script src="/rewestrp/reddeadwebpage.js"></script> 
+ </body>
+</html>
